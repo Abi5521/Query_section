@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    margin-left: 30%;
+    border: 2px solid;
+    padding: 20px;
+    background-color: lavenderblush;
+}
+details{
+    font-size: 20px;
+    padding: 8px 10px;
+    border: 2px outset;
+}
+summary{
+    display: flex;
+    justify-content: space-between;
+}
+summary i{
+    padding-left: 8px;
+}
